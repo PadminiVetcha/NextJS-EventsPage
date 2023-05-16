@@ -16,7 +16,7 @@ function AllEventsPage(props) {
   return (
     <div>
       <Head>
-        <title>Next JS Events</title>
+        <title>All Events</title>
         <meta name='description' content= 'Come and have a look at numerous events' />
       </Head>
       <EventsSearch onSearch={findEventsHandler}/>
